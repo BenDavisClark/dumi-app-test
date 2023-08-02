@@ -25,4 +25,4 @@ jobs:
           github_token: ${{ secrets.NEW_TOKEN }}
           # 文档目录，如果是 react 模板需要修改为 docs-dist
           publish_dir: ./dist
-          branch: main
+          branch: build
